@@ -4,7 +4,7 @@ import streamlit as st
 import altair as alt
 
 # Connect to PinotDB
-conn = pinotdb.connect(host='54.255.209.170', port=8099, path='/query/sql', scheme='http')
+conn = pinotdb.connect(host='13.212.106.133', port=8099, path='/query/sql', scheme='http')
 
 # Function to fetch data from Pinot
 def fetch_data(query):
